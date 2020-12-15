@@ -1,0 +1,70 @@
+.header {
+  background-image: url('../../images/hd-1.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+  background-color: inherit;
+  color: #fff;
+}
+
+.logoWrap {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+.graph {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.delivery {
+  color: inherit;
+  font-size: 14px;
+}
+
+.delivery span {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.authBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgb(211, 211, 211);
+  transition: all 0.2s linear;
+}
+
+.authBtn:hover,
+.authBtn:focus {
+  background-color: rgb(231, 231, 231);
+}
