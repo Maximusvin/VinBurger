@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import { AiOutlineUserAdd, AiOutlineClockCircle } from 'react-icons/ai';
 import Layout from '../Layout/Layout';
 import logoImg from '../../images/burger.svg';
