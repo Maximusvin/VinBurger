@@ -1,0 +1,13 @@
+.main {
+  background-color: #ccc;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.section {
+  padding: 30px;
+}

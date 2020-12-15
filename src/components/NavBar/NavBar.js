@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { AiOutlineUserAdd, AiOutlineClockCircle } from 'react-icons/ai';
 import Layout from '../Layout/Layout';
 import logoImg from '../../images/burger.svg';
@@ -27,6 +28,21 @@ const NavBar = () => {
           <AiOutlineUserAdd style={{ fontSize: '20px' }} />
         </Buttom>
       </nav>
+      <Layout>
+        <div className={s.offer}>
+          <p className={s.offerTitle}>
+            Твой <span>Бургер</span> всегда рядом
+          </p>
+          <p className={s.description}>
+            У каждого есть идеальная пара. Иногда приходится путешествовать по
+            миру в её поисках. И где бы ни был ваш идеальный бургер, он всегда
+            будет рядом.
+          </p>
+          <a href="#menu" className={s.offerButton}>
+            Меню
+          </a>
+        </div>
+      </Layout>
     </header>
   );
 };
