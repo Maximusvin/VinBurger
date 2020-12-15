@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/VinBurger/static/css/main.fc381515.chunk.css",
-    "main.js": "/VinBurger/static/js/main.1bfb7778.chunk.js",
-    "main.js.map": "/VinBurger/static/js/main.1bfb7778.chunk.js.map",
+    "main.js": "/VinBurger/static/js/main.afc30de2.chunk.js",
+    "main.js.map": "/VinBurger/static/js/main.afc30de2.chunk.js.map",
     "runtime-main.js": "/VinBurger/static/js/runtime-main.4b2ee853.js",
     "runtime-main.js.map": "/VinBurger/static/js/runtime-main.4b2ee853.js.map",
     "static/js/2.3772ecda.chunk.js": "/VinBurger/static/js/2.3772ecda.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4b2ee853.js",
     "static/js/2.3772ecda.chunk.js",
     "static/css/main.fc381515.chunk.css",
-    "static/js/main.1bfb7778.chunk.js"
+    "static/js/main.afc30de2.chunk.js"
   ]
 }
