@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/VinBurger/static/css/main.da1762b1.chunk.css",
-    "main.js": "/VinBurger/static/js/main.799e6e92.chunk.js",
-    "main.js.map": "/VinBurger/static/js/main.799e6e92.chunk.js.map",
+    "main.css": "/VinBurger/static/css/main.fc381515.chunk.css",
+    "main.js": "/VinBurger/static/js/main.1bfb7778.chunk.js",
+    "main.js.map": "/VinBurger/static/js/main.1bfb7778.chunk.js.map",
     "runtime-main.js": "/VinBurger/static/js/runtime-main.4b2ee853.js",
     "runtime-main.js.map": "/VinBurger/static/js/runtime-main.4b2ee853.js.map",
-    "static/js/2.d6ec1c53.chunk.js": "/VinBurger/static/js/2.d6ec1c53.chunk.js",
-    "static/js/2.d6ec1c53.chunk.js.map": "/VinBurger/static/js/2.d6ec1c53.chunk.js.map",
+    "static/js/2.3772ecda.chunk.js": "/VinBurger/static/js/2.3772ecda.chunk.js",
+    "static/js/2.3772ecda.chunk.js.map": "/VinBurger/static/js/2.3772ecda.chunk.js.map",
     "index.html": "/VinBurger/index.html",
-    "static/css/main.da1762b1.chunk.css.map": "/VinBurger/static/css/main.da1762b1.chunk.css.map",
-    "static/js/2.d6ec1c53.chunk.js.LICENSE.txt": "/VinBurger/static/js/2.d6ec1c53.chunk.js.LICENSE.txt",
+    "static/css/main.fc381515.chunk.css.map": "/VinBurger/static/css/main.fc381515.chunk.css.map",
+    "static/js/2.3772ecda.chunk.js.LICENSE.txt": "/VinBurger/static/js/2.3772ecda.chunk.js.LICENSE.txt",
     "static/media/burger.8d757826.svg": "/VinBurger/static/media/burger.8d757826.svg",
     "static/media/NavBar.module.css": "/VinBurger/static/media/hd-1.0228b37b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4b2ee853.js",
-    "static/js/2.d6ec1c53.chunk.js",
-    "static/css/main.da1762b1.chunk.css",
-    "static/js/main.799e6e92.chunk.js"
+    "static/js/2.3772ecda.chunk.js",
+    "static/css/main.fc381515.chunk.css",
+    "static/js/main.1bfb7778.chunk.js"
   ]
 }
