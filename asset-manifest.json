@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/VinBurger/static/css/main.5295cdc1.chunk.css",
+    "main.css": "/VinBurger/static/css/main.c182bd2d.chunk.css",
     "main.js": "/VinBurger/static/js/main.0aabc667.chunk.js",
     "main.js.map": "/VinBurger/static/js/main.0aabc667.chunk.js.map",
     "runtime-main.js": "/VinBurger/static/js/runtime-main.4b2ee853.js",
@@ -8,7 +8,7 @@
     "static/js/2.148ff3a6.chunk.js": "/VinBurger/static/js/2.148ff3a6.chunk.js",
     "static/js/2.148ff3a6.chunk.js.map": "/VinBurger/static/js/2.148ff3a6.chunk.js.map",
     "index.html": "/VinBurger/index.html",
-    "static/css/main.5295cdc1.chunk.css.map": "/VinBurger/static/css/main.5295cdc1.chunk.css.map",
+    "static/css/main.c182bd2d.chunk.css.map": "/VinBurger/static/css/main.c182bd2d.chunk.css.map",
     "static/js/2.148ff3a6.chunk.js.LICENSE.txt": "/VinBurger/static/js/2.148ff3a6.chunk.js.LICENSE.txt",
     "static/media/burger.8d757826.svg": "/VinBurger/static/media/burger.8d757826.svg",
     "static/media/NavBar.module.css": "/VinBurger/static/media/hd-1.0228b37b.jpg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.4b2ee853.js",
     "static/js/2.148ff3a6.chunk.js",
-    "static/css/main.5295cdc1.chunk.css",
+    "static/css/main.c182bd2d.chunk.css",
     "static/js/main.0aabc667.chunk.js"
   ]
 }
