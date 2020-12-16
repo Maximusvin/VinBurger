@@ -57,14 +57,21 @@ body {
   margin:0;
   background-color: #f0f0f0;
   color: #000;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 
-h1, h2, h3, h4 {
-  font-family: Rubik;
+h1 {
+  font-family: 'Rubik', sans-serif;
   padding: 0;
   margin: 0;
+}
+
+ h2, h3, h4 {
+  font-family: 'Russo One', sans-serif;  
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.1em;
 }
 
 button {

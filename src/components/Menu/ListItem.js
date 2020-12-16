@@ -4,10 +4,11 @@ import styled from 'styled-components';
 const Item = styled.li`
   position: relative;
   width: 400px;
-  height: 155px;
-  background-image: ${({ img }) => `url(.${img})`};
+  height: 400px;
+  background-image: ${({ img }) => `url(VinBurger/${img})`};
   background-position: center;
-  background-size: cover;
+  background-size: 300px;
+  background-repeat: no-repeat;
   margin-top: 30px;
   margin-right: 30px;
   padding: 15px;
@@ -21,8 +22,6 @@ const Item = styled.li`
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: #000;
-    opacity: 0.4;
     z-index: -1;
   }
   &:hover {
@@ -42,7 +41,7 @@ const ListItem = ({ itemList }) => (
         <p>
           {price.toLocaleString('ru-RU', {
             style: 'currency',
-            currency: 'RUB',
+            currency: 'UAH',
           })}
         </p>
       </Item>

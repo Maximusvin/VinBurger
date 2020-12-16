@@ -1,5 +1,5 @@
 .main {
-  background-color: #ccc;
+  background-color: #1d1d1d;
 }
 
 .list {
@@ -10,4 +10,5 @@
 
 .section {
   padding: 30px;
+  color: #fff;
 }
