@@ -108,12 +108,6 @@ const dbMenu = {
       id: 9,
       price: 44.3,
     },
-    {
-      name: 'Бонаква',
-      img: '/menu/other/bonaqua.png',
-      id: 9,
-      price: 28.9,
-    },
   ],
 };
 

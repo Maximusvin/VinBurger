@@ -3,11 +3,12 @@ import styled from 'styled-components';
 
 const Item = styled.li`
   position: relative;
-  width: 400px;
-  height: 400px;
-  background-image: ${({ img }) => `url(VinBurger/${img})`};
+  width: 325px;
+  height: 250px;
+  /* background-image: ${({ img }) => `url(VinBurger/${img})`}; */
+  background-image: ${({ img }) => `url(${img})`};
   background-position: center;
-  background-size: 300px;
+  background-size: 190px;
   background-repeat: no-repeat;
   margin-top: 30px;
   margin-right: 30px;
@@ -23,6 +24,8 @@ const Item = styled.li`
     right: 0;
     left: 0;
     z-index: -1;
+    background-color: #000;
+    opacity: 30%;
   }
   &:hover {
     cursor: pointer;
