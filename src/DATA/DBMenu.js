@@ -6,6 +6,10 @@ const dbMenu = {
         'https://res.cloudinary.com/maximusvin/image/upload/v1608112632/burgers/js-burger_zb4p3k.png',
       id: 1,
       price: 150,
+
+      description:
+        'МНОГО БЕКОНА / СОУС ЧЕДДЕР / САЛАТ / ДВОЙНОЙ ЧЕДДЕР / БЕКОНОВЫЙ ДЖЕМ / СОУС BBQ / КРАНЧ ЛУК /',
+      weight: '335г',
       toppings: [
         'Бекон',
         'Кетчуп',

@@ -11,7 +11,7 @@ const NavBar = () => {
   const listenScrollEvent = () => {
     if (window.scrollY < 100) {
       return setNav(s.nav);
-    } else if (window.scrollY > 90) {
+    } else if (window.scrollY > 99) {
       return setNav(s.navBlack);
     }
   };
