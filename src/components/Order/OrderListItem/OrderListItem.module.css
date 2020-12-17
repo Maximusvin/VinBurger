@@ -1,0 +1,139 @@
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  width: 100%;
+  transition: transform 0.2s cubic-bezier(0.4, 0.01, 0.63, 1);
+  font-size: 16px;
+}
+
+.colImg {
+  position: relative;
+  width: 56px;
+}
+
+.itemImg {
+  width: 56px;
+  margin-bottom: 14px;
+}
+
+.btnMinus {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  bottom: 6px;
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.4, 0.01, 0.63, 1);
+  z-index: 10;
+  color: #000000;
+  font-size: 26px;
+  line-height: 15px;
+  background: #ffd900;
+}
+
+.counterNumber {
+  height: 28px;
+  width: 28px;
+  border-radius: 14px;
+  position: absolute;
+  left: 14px;
+  bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 28px;
+  background: rgba(15, 15, 15, 0.75294);
+  font-size: 16px;
+  font-weight: 700;
+  z-index: 5;
+  border: none;
+  outline: none;
+  color: #f4f4f4;
+}
+
+.btnPlus {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  bottom: 6px;
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.4, 0.01, 0.63, 1);
+  z-index: 10;
+  color: #000000;
+  font-size: 20px;
+  line-height: 15px;
+  background: #ffd900;
+}
+
+.colContent {
+  width: calc(100% - 72px);
+  display: block;
+  margin-bottom: 2px;
+}
+
+.topLine {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 4px;
+}
+
+.topLine::before {
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  content: '';
+  background: #373737;
+  top: 10px;
+}
+
+.topLine h5 {
+  font-size: 16px;
+  line-height: 20px;
+  color: #f4f4f4;
+  background-color: #1d1d1d;
+  font-weight: 600;
+  letter-spacing: -0.01488em;
+  padding-right: 8px;
+  z-index: 1;
+}
+
+.topLine span {
+  font-weight: 700;
+  padding-left: 8px;
+  background-color: #1d1d1d;
+  color: #f4f4f4;
+  z-index: 1;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.bottomLine {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomLine small {
+  font-size: 12px;
+  line-height: 16px;
+  color: #888;
+}
+
+.bottomLine span {
+  cursor: pointer;
+}
+
+.iconClose {
+  font-size: 22px;
+  color: #ffd900;
+}

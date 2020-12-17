@@ -1,9 +1,7 @@
 .orderWrap {
-  padding-top: 90px;
   position: fixed;
   top: 0;
   min-width: 380px;
-  background-color: #1d1d1d;
   height: 100%;
   z-index: 100;
   color: #f4f4f4;
@@ -25,12 +23,18 @@
 
 .basketImgWrap {
   width: 100%;
+  padding-top: 90px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #1d1d1d;
+}
+
+.orderContent {
+  flex-grow: 1;
 }
 
 .basketImgWrap p {
@@ -55,6 +59,16 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  background-color: transparent;
+  transition: all 0.4s linear;
+  background-color: #1d1d1d;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.visibleBasket:hover,
+.visibleBasket:focus {
+  color: #ffd900;
+  background-color: #141414;
 }
 
 .visibleBasket h3 {
@@ -66,7 +80,6 @@
   background: #373737;
   color: #888;
   width: 100%;
-
   outline: none;
   font-size: 16px;
   line-height: 20px;
@@ -83,4 +96,11 @@
 .checkoutOrder:focus {
   background: #ffd900;
   color: #0f0f0f;
+}
+
+.totalCost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
 }
