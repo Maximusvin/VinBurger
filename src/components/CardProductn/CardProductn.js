@@ -14,7 +14,7 @@ const CardProduct = ({ product }) => {
         </div>
         <div className={s.control}>
           <button type="button" className={s.button}>
-            <span className={s.finalCost}>{price}</span>
+            <span className={s.finalCost}>{price} грн.</span>
             <span className={s.add}>Добавить к заказу</span>
           </button>
         </div>

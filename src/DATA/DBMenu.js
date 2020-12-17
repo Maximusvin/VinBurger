@@ -6,7 +6,6 @@ const dbMenu = {
         'https://res.cloudinary.com/maximusvin/image/upload/v1608112632/burgers/js-burger_zb4p3k.png',
       id: 1,
       price: 150,
-
       description:
         'МНОГО БЕКОНА / СОУС ЧЕДДЕР / САЛАТ / ДВОЙНОЙ ЧЕДДЕР / БЕКОНОВЫЙ ДЖЕМ / СОУС BBQ / КРАНЧ ЛУК /',
       weight: '335г',
@@ -25,6 +24,9 @@ const dbMenu = {
         'https://res.cloudinary.com/maximusvin/image/upload/v1608112632/burgers/sun-burger_mqxbhw.png',
       id: 2,
       price: 189.9,
+      description:
+        'МНОГО БЕКОНА / СОУС ЧЕДДЕР / САЛАТ / ДВОЙНОЙ ЧЕДДЕР / БЕКОНОВЫЙ ДЖЕМ / СОУС BBQ / КРАНЧ ЛУК /',
+      weight: '335г',
       toppings: ['Бекон', 'Красный лук'],
     },
     {
@@ -33,6 +35,9 @@ const dbMenu = {
         'https://res.cloudinary.com/maximusvin/image/upload/v1608112631/burgers/react-burger_wrmjsb.png',
       id: 3,
       price: 175,
+      description:
+        'МНОГО БЕКОНА / СОУС ЧЕДДЕР / САЛАТ / ДВОЙНОЙ ЧЕДДЕР / БЕКОНОВЫЙ ДЖЕМ / СОУС BBQ / КРАНЧ ЛУК /',
+      weight: '335г',
       toppings: ['Ананас', 'Майонец'],
     },
     {
@@ -41,6 +46,9 @@ const dbMenu = {
         'https://res.cloudinary.com/maximusvin/image/upload/v1608112630/burgers/borsh-burger_g10ghn.png',
       id: 4,
       price: 112,
+      description:
+        'МНОГО БЕКОНА / СОУС ЧЕДДЕР / САЛАТ / ДВОЙНОЙ ЧЕДДЕР / БЕКОНОВЫЙ ДЖЕМ / СОУС BBQ / КРАНЧ ЛУК /',
+      weight: '335г',
     },
     {
       name: 'React Burger',
@@ -48,6 +56,9 @@ const dbMenu = {
         'https://res.cloudinary.com/maximusvin/image/upload/v1608112629/burgers/1598719544193_arrbck.png',
       id: 5,
       price: 169.9,
+      description:
+        'МНОГО БЕКОНА / СОУС ЧЕДДЕР / САЛАТ / ДВОЙНОЙ ЧЕДДЕР / БЕКОНОВЫЙ ДЖЕМ / СОУС BBQ / КРАНЧ ЛУК /',
+      weight: '335г',
       toppings: ['Кетчуп', 'Сыр Чеддер'],
     },
     {
@@ -56,6 +67,9 @@ const dbMenu = {
         'https://res.cloudinary.com/maximusvin/image/upload/v1608112629/burgers/freckles-burger_zgv8eh.png',
       id: 6,
       price: 134,
+      description:
+        'МНОГО БЕКОНА / СОУС ЧЕДДЕР / САЛАТ / ДВОЙНОЙ ЧЕДДЕР / БЕКОНОВЫЙ ДЖЕМ / СОУС BBQ / КРАНЧ ЛУК /',
+      weight: '335г',
       toppings: ['Сыр Чеддер', 'Красный лук'],
     },
   ],
