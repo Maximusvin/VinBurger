@@ -54,8 +54,9 @@ li {
 }
 
 body {
-  margin:0;
-  background-color: #f0f0f0;
+  margin:0;  
+  /* background-color: #1d1d1d; */
+  background-color: #0f0f0f;
   color: #000;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
