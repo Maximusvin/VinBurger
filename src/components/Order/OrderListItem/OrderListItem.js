@@ -3,8 +3,6 @@ import { IoMdClose } from 'react-icons/io';
 
 const OrderListItem = ({ order }) => {
   const { name, url, price, weight } = order;
-
-  console.log(url, name);
   return (
     <li className={s.cartItem}>
       <div className={s.colImg}>

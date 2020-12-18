@@ -1,10 +1,16 @@
-// import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import OrderList from './OrderList';
 import BasketBG from './BasketBG';
 
 import s from './Order.module.css';
 
 const Order = ({ showCar, setShowCar, orders }) => {
+  const [totalPrice, setTotalPrice] = useState(null);
+
+  useEffect(() => {
+    setTotalPrice(orders.reduce((acc, order) => acc + order.price, 0));
+  }, [orders]);
+
   const handlerOrder = () => {
     setShowCar(showCar => !showCar);
   };
@@ -16,7 +22,7 @@ const Order = ({ showCar, setShowCar, orders }) => {
         <div>
           <div className={s.totalCost}>
             <p>Всего:</p>
-            <span>350 грн.</span>
+            <span>{totalPrice} грн.</span>
           </div>
           <button type="button" className={s.checkoutOrder}>
             Оформить заказ
