@@ -1,15 +1,14 @@
 import s from './OrderListItem.module.css';
 import { IoMdClose } from 'react-icons/io';
 
-const OrderListItem = () => {
+const OrderListItem = ({ order }) => {
+  const { name, url, price, weight } = order;
+
+  console.log(url, name);
   return (
     <li className={s.cartItem}>
       <div className={s.colImg}>
-        <img
-          src="https://res.cloudinary.com/maximusvin/image/upload/v1608112629/burgers/freckles-burger_zgv8eh.png"
-          alt="Вейдер cart img"
-          className={s.itemImg}
-        />
+        <img src={url} alt="cart img" className={s.itemImg} />
         <span className={s.btnMinus}>-</span>
         <input type="number" className={s.counterNumber} />
         <span className={s.btnPlus}>+</span>
@@ -17,11 +16,11 @@ const OrderListItem = () => {
 
       <div className={s.colContent}>
         <div className={s.topLine}>
-          <h5>Sun Burger</h5>
-          <span>134 ₴</span>
+          <h5>{name}</h5>
+          <span>{price} ₴</span>
         </div>
         <div className={s.bottomLine}>
-          <small>Котлета из говядины, 305г</small>
+          <small>Котлета из говядины, {weight}</small>
           <span>
             <IoMdClose className={s.iconClose} />
           </span>

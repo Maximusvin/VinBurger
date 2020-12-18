@@ -1,7 +1,16 @@
 import s from './CardProductn.module.css';
 
-const CardProduct = ({ product }) => {
-  const { name, description, url, weight, price } = product;
+const CardProduct = ({ product, onCloseModal, orders, setOrders }) => {
+  const { name, description, url, weight, price, id } = product;
+
+  const order = {
+    ...product,
+  };
+
+  const addToOrder = () => {
+    setOrders([...orders, order]);
+    onCloseModal(null);
+  };
 
   return (
     <div className={s.productCard}>
@@ -15,7 +24,9 @@ const CardProduct = ({ product }) => {
         <div className={s.control}>
           <button type="button" className={s.button}>
             <span className={s.finalCost}>{price} грн.</span>
-            <span className={s.add}>Добавить к заказу</span>
+            <span className={s.add} onClick={addToOrder}>
+              Добавить к заказу
+            </span>
           </button>
         </div>
       </div>

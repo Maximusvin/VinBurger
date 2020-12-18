@@ -1,27 +1,18 @@
 // import { useState, useEffect } from 'react';
-import OrderListItem from './OrderListItem/OrderListItem';
-import basket from '../../images/basket.svg';
+import OrderList from './OrderList';
+import BasketBG from './BasketBG';
+
 import s from './Order.module.css';
 
-const Order = ({ showOrder, setShowOrder }) => {
+const Order = ({ showCar, setShowCar, orders }) => {
   const handlerOrder = () => {
-    setShowOrder(showOrder => !showOrder);
+    setShowCar(showCar => !showCar);
   };
 
   return (
-    <div className={showOrder ? s.openOrder : s.closeOrder}>
+    <div className={showCar ? s.openOrder : s.closeOrder}>
       <div className={s.basketImgWrap}>
-        <ul className={s.orderContent}>
-          <OrderListItem />
-          <OrderListItem />
-          <OrderListItem />
-        </ul>
-
-        <div>
-          <img src={basket} alt="Корзина" className={s.basketImg} />
-          <p>Добавь сюда все, что захочется</p>
-        </div>
-
+        {orders.length ? <OrderList orders={orders} /> : <BasketBG />}
         <div>
           <div className={s.totalCost}>
             <p>Всего:</p>
@@ -33,7 +24,7 @@ const Order = ({ showOrder, setShowOrder }) => {
         </div>
       </div>
       <div className={s.visibleBasket} onClick={handlerOrder}>
-        <h3>{!showOrder ? 'Корзина' : 'Закрыть'}</h3>
+        <h3>{!showCar ? 'Корзина' : 'Закрыть'}</h3>
       </div>
     </div>
   );
