@@ -4,11 +4,13 @@ import BasketBG from './BasketBG';
 
 import s from './Order.module.css';
 
-const Order = ({ showCar, setShowCar, orders }) => {
-  const [totalPrice, setTotalPrice] = useState(null);
+const Order = ({ showCar, setShowCar, orders, counter }) => {
+  const [totalPrice, setTotalPrice] = useState(0);
 
   useEffect(() => {
-    setTotalPrice(orders.reduce((acc, order) => acc + order.price, 0));
+    setTotalPrice(
+      orders.reduce((acc, order) => acc + order.price * order.count, 0),
+    );
   }, [orders]);
 
   const handlerOrder = () => {
@@ -18,11 +20,15 @@ const Order = ({ showCar, setShowCar, orders }) => {
   return (
     <div className={showCar ? s.openOrder : s.closeOrder}>
       <div className={s.basketImgWrap}>
-        {orders.length ? <OrderList orders={orders} /> : <BasketBG />}
+        {orders.length ? (
+          <OrderList orders={orders} counter={counter} />
+        ) : (
+          <BasketBG />
+        )}
         <div>
           <div className={s.totalCost}>
             <p>Всего:</p>
-            <span>{totalPrice} грн.</span>
+            <span>{totalPrice.toFixed(2)} грн.</span>
           </div>
           <button type="button" className={s.checkoutOrder}>
             Оформить заказ

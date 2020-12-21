@@ -1,21 +1,21 @@
+import CounterProducts from './CounterProducts';
+import { totalPriceItems } from '../../CardProduct/CardProduct';
 import s from './OrderListItem.module.css';
 import { IoMdClose } from 'react-icons/io';
 
-const OrderListItem = ({ order }) => {
-  const { name, url, price, weight } = order;
+const OrderListItem = ({ order, counter }) => {
+  const { name, url, price, weight, count } = order;
   return (
     <li className={s.cartItem}>
       <div className={s.colImg}>
         <img src={url} alt="cart img" className={s.itemImg} />
-        <span className={s.btnMinus}>-</span>
-        <input type="number" className={s.counterNumber} />
-        <span className={s.btnPlus}>+</span>
+        <CounterProducts {...counter} />
       </div>
 
       <div className={s.colContent}>
         <div className={s.topLine}>
           <h5>{name}</h5>
-          <span>{price} ₴</span>
+          <span>{totalPriceItems(price, count).toFixed(2)} ₴</span>
         </div>
         <div className={s.bottomLine}>
           <small>Котлета из говядины, {weight}</small>
