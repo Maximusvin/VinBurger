@@ -5,10 +5,10 @@
   "homepage": "https://maximusvin.github.io/VinBurger",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
-    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.5.0",
-    "axios": "^0.21.0",
+    "@testing-library/user-event": "^12.6.0",
+    "axios": "^0.21.1",
     "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -45,7 +45,7 @@
     ]
   },
   "devDependencies": {
-    "husky": "^4.3.5",
+    "husky": "^4.3.6",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
     "prop-types": "^15.7.2"
