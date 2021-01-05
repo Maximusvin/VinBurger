@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { AiOutlineUserAdd, AiOutlineClockCircle } from 'react-icons/ai';
 import Layout from '../Layout/Layout';
 import logoImg from '../../images/burger.svg';
-import Buttom from '../../UI/IconButton/IconButton';
+import Button from '../../UI/IconButton/IconButton';
 import s from './NavBar.module.css';
 
 const NavBar = () => {
@@ -39,9 +39,9 @@ const NavBar = () => {
           +3 8 (097) 97-696-25
         </a>
 
-        <Buttom className={s.authBtn}>
+        <Button className={s.authBtn}>
           <AiOutlineUserAdd style={{ fontSize: '20px' }} />
-        </Buttom>
+        </Button>
       </nav>
       <Layout>
         <div className={s.offer}>
